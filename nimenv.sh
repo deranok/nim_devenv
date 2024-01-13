@@ -13,7 +13,7 @@ start () {
     export OLD_PATH=$PATH;
     export PATH=$PATH:$HOME/.nimble/bin;
     export OLD_PS1=$PS1;
-    export PS1="\033[1;35m(nimenv)\033[0m $PS1";
+    export PS1="\[\033[1;35m\](nimenv)\[\033[0m\] $PS1";
   } fi
 }
 
